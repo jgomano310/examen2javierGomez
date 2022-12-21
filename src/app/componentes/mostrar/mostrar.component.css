@@ -1,0 +1,6 @@
+.table{
+background-color: aliceblue;
+margin: 0 auto;
+		display: table;
+    border-collapse: collapse;
+}

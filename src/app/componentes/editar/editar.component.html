@@ -1,0 +1,44 @@
+
+
+<form [formGroup]="editar" (ngSubmit)="enviar()" novalidate>
+
+
+    <div class="form-group">
+        <label>id</label>
+        <input formControlName="id" class="form-control" id="id" placeholder="id">
+      </div>
+
+    <div class="form-group">
+        <label>nombre</label>
+      <input formControlName="nombre" class="form-control" id="nombre" placeholder="nombre">
+    </div>
+
+    <div class="form-group">
+        <label>apellidos</label>
+        <input formControlName="apellidos" class="form-control" id="apellidos" placeholder="apellidos">
+      </div>
+
+      <div class="form-group">
+        <label>ciudad</label>
+        <input formControlName="ciudad" class="form-control" id="ciudad" placeholder="ciudad">
+      </div>
+
+      <div class="form-group">
+        <label>telefono</label>
+        <input formControlName="telefono" class="form-control" id="telefono" placeholder="telefono">
+      </div>
+
+      <div class="form-group">
+        <label>email</label>
+        <input formControlName="email" class="form-control" id="email" placeholder="email">
+      </div>
+
+      <div class="form-group">
+        <label>mes_disponible</label>
+        <input formControlName="mes_disponible" class="form-control" id="mes_disponible" placeholder="mes_disponible">
+      </div>
+   
+    <button type="submit" class="btn btn-primary"> 
+        editar
+    </button>
+  </form>
